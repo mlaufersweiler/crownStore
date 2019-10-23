@@ -1,7 +1,10 @@
-import React, { Component } from "react";
+import React from "react";
+
 import MenuItem from "../menu-item/menu-item.component";
+
 import "./directory.styles.scss";
-class Directory extends Component {
+
+class Directory extends React.Component {
   constructor() {
     super();
 
@@ -29,7 +32,8 @@ class Directory extends Component {
           title: "womens",
           imageUrl: "https://i.ibb.co/GCCdy8t/womens.png",
           size: "large",
-          id: 4
+          id: 4,
+          linkUrl: ""
         },
         {
           title: "mens",
@@ -41,6 +45,7 @@ class Directory extends Component {
       ]
     };
   }
+
   render() {
     return (
       <div className="directory-menu">
@@ -51,4 +56,5 @@ class Directory extends Component {
     );
   }
 }
+
 export default Directory;
