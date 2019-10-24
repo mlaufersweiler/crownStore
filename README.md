@@ -1,3 +1,9 @@
+React | Redux | Firebase | SASS | Stripe
+
+The CROWN Clothing ecommerce shop always users to add items to their cart and checkout with stripe integration.  A user can add items to their cart and see in real time their price for each and total price in cart.  Once on checkout page, a user can add more items, remove items, or delete the item completely with the total price responding in real time.  
+
+
+
 Landing Page:
 ![Screen Shot 2019-10-24 at 12 19 34 PM](https://user-images.githubusercontent.com/29295716/67505425-38624f80-f659-11e9-9044-7787d25f69a9.png)
 
